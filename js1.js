@@ -3,9 +3,7 @@ botao.innerHTML = `
     <div id='center'><button onclick='init()' id='bota'>COMEÇAR</button></div>
 `
 const msg = document.createElement('h1');
-msg.innerHTML = `
-    <h1>OBRIGADO POR PARTICIPAR!</h1>
-`
+
 const form = document.createElement('formulario');
 form.innerHTML = `
     <h1>Creator</h1>
@@ -98,7 +96,7 @@ function sendbutton(event) {
 
 function final(nome) {
     title.innerText = 'AGRADECIMENTOS'
-    msg.innerHTML = `<h1>Olá, ${nome}!\nMuito obrigado por responder o formulário!<h1>`
+    msg.innerHTML = `<h1>Olá, ${nome}!\nMuito obrigado por tomar um pouco do seu tempo e responder o formulário <3!<h1>`
     document.body.removeChild(form);
     document.body.appendChild(msg);
 }
