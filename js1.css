@@ -3,91 +3,9 @@
 body{
     font-family: 'Macondo', cursive;
     background-color: aliceblue;
-    text-align: center;
-    margin: 0;
+    margin: 5%;
 }
-form{
-    border-radius: 5px;
-    background-color: azure;
-    margin: 30px 300px;
-    padding: 40px;
-    padding-bottom: 0;
-    text-align: left;
-}
-#center{
-    height: 650px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-#bota{
-    font-size: large;
-    background-color:azure;
-    border-color:lightgray;
-}
-#button{
-    text-align: center;
-}
-#nome,#idade,#sjs{
-    font-family: 'Courier New', Courier, monospace;
-    /* border-color:aquamarine; */
-}
-#but{
-    background-color:azure;
-    border-color:lightgray;
-}
-#gnr,#classe,#raca{
-    font-family: 'Courier New', Courier, monospace;
-    /* border-color: aquamarine; */
-    background-color: white;
-}
-@media screen and (max-width: 900px) {
-    form {
-        border-radius: 5px;
-        background-color: azure;
-        margin: 25px 200px;
-        padding: 30px;
-        padding-bottom: 0;
-        text-align: left;
-    }
-}
-@media screen and (max-width: 768px) {
-    form {
-        border-radius: 5px;
-        background-color: azure;
-        margin: 20px 130px;
-        padding: 20px;
-        padding-bottom: 0;
-        text-align: left;
-    }
-}
-@media screen and (max-width: 600px) {
-    form {
-        border-radius: 5px;
-        background-color: azure;
-        margin: 5px 50px;
-        padding: 10px;
-        padding-bottom: 0;
-        text-align: left;
-    }
-}
-@media screen and (max-width: 500px) {
-    form {
-        border-radius: 5px;
-        background-color: azure;
-        margin: 2px 30px;
-        padding: 6px;
-        padding-bottom: 0;
-        text-align: left;
-    }
-}
-@media screen and (max-width: 400px) {
-    form {
-        border-radius: 5px;
-        background-color: azure;
-        margin: 2px 20px;
-        padding: 3px;
-        padding-bottom: 0;
-        text-align: left;
-    }
+
+h2{
+    padding-top: 250px;
 }
