@@ -4,8 +4,9 @@ body{
     font-family: 'Macondo', cursive;
     background-color: aliceblue;
     margin: 5%;
+    font-size: 30px;
 }
 
 h2{
-    padding-top: 250px;
+    padding-top: 150px;
 }
