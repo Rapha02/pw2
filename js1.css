@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+body{
+    font-family: 'Macondo', cursive;
+    background-color: aliceblue;
+    margin: 5%;
+    font-size: 30px;
+}
+
+h2{
+    padding-top: 150px;
+}
